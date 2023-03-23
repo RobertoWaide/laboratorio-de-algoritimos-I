@@ -5,7 +5,7 @@ cpf = "760.120.542-22"
 peso = 77.5
 dtDeNasc = "25/12/2000"
 cidade = "Salvador"
-estado = "Baiha"
+estado = "Bahia"
 veloz = 87
 preco = 12.89
 
