@@ -3,7 +3,7 @@ n2 = float(input("Digite o segundo número: "))
 
 calc = int(input("Soma = 1, Subtrair = 2, Multiplicar = 3 ou Dividir = 4? "))
 
-if calc <= 1 and calc >= 4:
+if calc >= 1 and calc <= 4:
     if calc == 1:
         ulad = "soma"
         ora = n1 + n2
