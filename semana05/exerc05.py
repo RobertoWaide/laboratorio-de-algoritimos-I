@@ -1,7 +1,7 @@
 numbPess = 0
 maior18 = 0
 ento = 0
-while numbPess != 3:
+while numbPess != 7:
     numbPess = numbPess + 1
     print("Cadastro - Pessoa",numbPess)
     idade = int(input("Digite a idade: "))
