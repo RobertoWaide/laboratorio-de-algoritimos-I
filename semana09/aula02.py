@@ -11,6 +11,7 @@ def idad():
     faixa = 0
     for i in range(7):
         idade = int(input("Digite sua idade:"))
+        peso = input("Digite seu peso:")
         media += idade
         if idade >= 18:
             maior += 1
