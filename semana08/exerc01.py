@@ -1,8 +1,11 @@
-def code():
+def codigo():
     print("Tchau")
 
-def main():
+def code():
     print("Olá")
+
+def main():
     code()
+    codigo()
     
 main()
