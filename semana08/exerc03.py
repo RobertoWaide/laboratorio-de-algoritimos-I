@@ -6,10 +6,15 @@ def compra(laranj):
         laranj *= 0.25
     else:
         laranj *= 0.4
-    recibo(laranj)
+    return laranj
+
+def quantidade():
+    laranj = int(input("Quantas laranjas deseja comprar?" ))
+    return laranj
 
 def code():
-    laranj = int(input("Quantas laranjas deseja comprar?" ))
+    laranj = quantidade()
     compra(laranj)
+    recibo(laranj)
     
 code()
