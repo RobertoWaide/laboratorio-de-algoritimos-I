@@ -1,6 +1,5 @@
-def ponteiros(hora):
-    hora = hora.replace(".", ":")
-    print(f"{hora:.2f}")
+def ponteiros(hora,minuto):
+    print(hora,":",minuto)
 
 def ajuste(hora):
     hora -= 12
@@ -9,12 +8,15 @@ def ajuste(hora):
 def relogio():
     hora = input("Digite o horario: ")
     hora = hora.replace(",", ".").replace(":", ".").replace(";", ".")
-    return float(hora)
+    partes = hora.split(".")
+    hora = int(partes[0])
+    minuto = int(partes[1])
+    return hora,minuto
 
 def code():
-    hora = relogio()
-    if hora > 12.59:
+    hora,minuto = relogio()
+    if hora > 12:
         hora = ajuste(hora)
-    ponteiros(hora)
+    ponteiros(hora,minuto)
 
 code()
