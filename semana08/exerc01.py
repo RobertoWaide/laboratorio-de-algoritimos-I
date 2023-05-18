@@ -1,8 +1,8 @@
 def codigo():
-    print("Tchau")
+    print("Tchau🤘")
 
 def code():
-    print("Olá")
+    print("Olá✌️")
 
 def main():
     code()
