@@ -1,3 +1,6 @@
+def espaco():
+    print()
+    
 def inserir(caixa):
     item = input("Digite o item: ")
     caixa.append(item)
@@ -30,14 +33,18 @@ def code():
     
         if opc == 1:
             inserir(caixa)
+            espaco()
         elif opc == 2:
             retirar(caixa)
+            espaco()
         elif opc == 3:
             listar(caixa)
+            espaco()
         elif opc == 4:
             off()
             break
         else:
             invalida()
+            espaco()
 
 code()
