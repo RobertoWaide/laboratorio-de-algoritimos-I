@@ -9,8 +9,8 @@ def numero():
     return lista
 
 
-def main():
+def code():
     lista = numero()
     inverte(lista)
     
-main()
+code()
