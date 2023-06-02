@@ -25,6 +25,9 @@ def menu():
     return opc 
 
 def ver_salario(horas, funcionario):
+    while funcionario > 20 or funcionario < 1:
+        print("Não há funcionários com esse número!")
+        funcionario = int(input("Digite o código do funcionário: "))
     salario = horas[funcionario - 1] * 50
     print(f"Salário do funcionário {funcionario}: R${salario:.2f}")
 
